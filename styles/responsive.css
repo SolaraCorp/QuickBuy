@@ -1,0 +1,35 @@
+#logo {
+    height: calc(100vh/18);
+    width: auto;
+}
+
+#name {
+    margin-left: 1vw;
+    height: calc(100vh/18);
+    width: auto;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+    .logo-name {
+        margin-top: 2vh;
+    }
+
+    #logo {
+        height: calc(100vh/24);
+        width: auto;
+        min-width: 10px;
+        min-height: 10px;
+    }
+    
+    #name {
+        margin-left: 1vw;
+        height: calc(100vh/24);
+        width: auto;
+        min-width: 10px;
+        min-height: 10px;
+    }
+
+    .card-roll {
+        max-height: 36vh;
+    }
+}
